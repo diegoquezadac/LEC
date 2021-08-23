@@ -9,6 +9,10 @@ El desarrollo de los laboratorios es en **Python** mediante el uso de **Jupyter 
 3. Variables aleatorias.
 4. Inferencia.
 
+# Contacto
+
+Ante cualquier duda o consulta contactarme vía correo electrónico: diego.quezadac@sansano.usm.cl.
+
 # Bibliografia
 
 1. VanderPlas, J. (2016). Python Data Science Handbook (1.a ed.). O’Reilly. https://jakevdp.github.io/PythonDataScienceHandbook/.
