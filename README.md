@@ -1,6 +1,11 @@
 # Acerca de
 
-El desarrollo de los laboratorios es en **Python** mediante el uso de **Jupyter Notebooks**. Se busca promover las convenciones de código descritas en [PEP 8](https://www.python.org/dev/peps/pep-0008/) y el uso de [Plotly](https://plotly.com/python/) y [iPython](https://ipython.org/).
+Los objetivos del LEC son:
+
+1. Analizar datos utilizando técnicas de visualización y analíticas de acuerdo a patrones y regularidades existentes en diversos fenómenos aleatorios.
+2. Construir modelos estadísticos clásicos y computacionales consistentes con el análisis de datos.
+
+El desarrollo es en **Python** mediante el uso de **Jupyter Notebooks**. Se busca promover las convenciones de código descritas en [PEP 8](https://www.python.org/dev/peps/pep-0008/), como así también, el uso de [Plotly](https://plotly.com/python/) y [iPython](https://ipython.org/).
 
 # Labs
 
