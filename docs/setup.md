@@ -13,7 +13,8 @@ Notar que no es necesario que utilice una distribución de Linux para el desarro
 
 # 3. Ambiente virtual de Anaconda
 
-Un [ambiente virtual](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) de Anaconda es una carpeta que contiene una especificación de todas las librerías de Python necesarias para realizar una tarea. Esto tiene un sin número de ventajas, entre ellas:
+Un [ambiente virtual](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) de Anaconda es una carpeta que contiene una especificación de todas las librerías de Python necesarias para realizar una tarea. Notar que esto tiene un sin número de ventajas, entre ellas:
+
 1. Mantener las librerías necesarias para un proyecto encapsuladas en un ambiente.
 2. Utilizar distintas versiones de Python y/o sus librerías facilmente.
 3. Comunicar las depedencias.
@@ -37,12 +38,14 @@ dependencies:
 
 ## 3.2 Crear ambiente
 
+Para crear un ambiente Anaconda a partir de un archivo llamado ``environment.yml`` y luego activarlo en la consola ejecute los siguientes comandos:
+
 ```bash
 conda env create -f environment.yml
 conda activate lec
 ```
 
-Para utilizar el ambiente recién creado con Jupyter Notebook es necesario crear un Jupyter Kernel.
+Para integrar el ambiente Anaconda recién creado con Jupyter Notebook es necesario crear un Jupyter Kernel:
 
 ```bash
 python -m ipykernel install --user --name=lec --display-name="Python (lec)"
@@ -50,13 +53,13 @@ python -m ipykernel install --user --name=lec --display-name="Python (lec)"
 
 > Para eliminar un Kernel puede utilizar el comando ``jupyter kernelspec uninstall lec``
 
-Luego, abra una nueva terminal y ejecute Jupyter Notebook:
+Luego, abra una nueva terminal e inicie Jupyter Notebook:
 
 ```bash
 jupyter-notebook
 ```
 
-Finalmente, abra un archivo ``.ipynb`` y en la sección Kernels seleccione 
+Finalmente, abra un archivo ``.ipynb`` y en la sección Kernels seleccione el Jupyter Kernel recien creado:
 
 ![h:300 w:500](./images/jupyter.png)
 
