@@ -1,0 +1,9 @@
+name: lec
+dependencies:
+  - python
+  - pip
+  - ipykernel
+  - numpy
+  - pandas
+  - matplotlib
+  - plotly
