@@ -34,7 +34,7 @@ dependencies:
   - pandas
   - matplotlib
   - plotly
-  - sklearn
+  - scipy
 ```
 
 ## 3.2 Crear ambiente
